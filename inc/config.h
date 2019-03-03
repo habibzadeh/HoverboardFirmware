@@ -33,7 +33,7 @@
  */
 #define TRAPEZOIDAL_CONTROL 0
 #define SINUSOIDAL_CONTROL 1
-#define CONTROL_METHOD TRAPEZOIDAL_CONTROL
+#define CONTROL_METHOD SINUSOIDAL_CONTROL
 
 
 
@@ -70,7 +70,7 @@
 #define MAX_POWER_PERCENT 20
 
 /* CHECKING FREQUENCIES
- * The frequencies for various tasks - power hcecks, UART communication, heart beat check.
+ * The frequencies for various tasks - power checks, UART communication, heart beat check.
  */
 #define POWER_CHECK_PERIOD 5000 //ms
 #define TX_WAIT_PERIOD	  250   //ms
